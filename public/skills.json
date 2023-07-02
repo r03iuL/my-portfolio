@@ -1,0 +1,130 @@
+{
+  "expertise": [
+    {
+      "name": "HTML 5",
+      "img": "html5.png",
+      "level": "Expert"
+    },
+    {
+      "name": "CSS 3",
+      "img": "css3.png",
+      "level": "Expert"
+    },
+    {
+      "name": "Bootstrap",
+      "img": "bootstrap.png",
+      "level": "Expert"
+    },
+    {
+      "name": "Tailwind",
+      "img": "tailwind.png",
+      "level": "Expert"
+    },
+    {
+      "name": "Javascript",
+      "img": "javascript.png",
+      "level": "Expert"
+    },
+    {
+      "name": "React",
+      "img": "react.png",
+      "level": "Expert"
+    },
+    {
+      "name": "React Bootstrap",
+      "img": "react-bootstrap.png",
+      "level": "Expert"
+    },
+    {
+      "name": "Daisy UI",
+      "img": "daisy-ui.png",
+      "level": "Expert"
+    },
+    {
+      "name": "React Router",
+      "img": "react-router.png",
+      "level": "Expert"
+    }
+  ],
+  "comfortable": [
+    {
+      "name": "MongoDB",
+      "img": "mongodb.png",
+      "level": "Comfortable"
+    },
+    {
+      "name": "REST APIs",
+      "img": "rest-api.png",
+      "level": "Comfortable"
+    },
+    {
+      "name": "Firebase Authentication & Hosting",
+      "img": "firebase.png",
+      "level": "Comfortable"
+    }
+  ],
+  "familiar": [
+    {
+      "name": "Express JS",
+      "img": "express.png",
+      "level": "Familiar"
+    },
+    {
+      "name": "Node JS",
+      "img": "nodejs.png",
+      "level": "Familiar"
+    },
+    {
+      "name": "Next JS",
+      "img": "nextjs.png",
+      "level": "Familiar"
+    },
+    {
+      "name": "Axios",
+      "img": "axios.png",
+      "level": "Familiar"
+    },
+    {
+      "name": "JWT",
+      "img": "jwt.png",
+      "level": "Familiar"
+    }
+  ],
+  "tools": [
+    {
+      "name": "VScode",
+      "img": "vscode.png",
+      "level": "Tools"
+    },
+    {
+      "name": "GitHub",
+      "img": "github.png",
+      "level": "Tools"
+    },
+    {
+      "name": "Chrome Dev Tools",
+      "img": "chrome-dev-tools.png",
+      "level": "Tools"
+    },
+    {
+      "name": "Figma",
+      "img": "figma.png",
+      "level": "Tools"
+    },
+    {
+      "name": "Netlify",
+      "img": "netlify.png",
+      "level": "Tools"
+    },
+    {
+      "name": "Vercel",
+      "img": "vercel.png",
+      "level": "Tools"
+    },
+    {
+      "name": "Figma",
+      "img": "figma.png",
+      "level": "Tools"
+    }
+  ]
+}
