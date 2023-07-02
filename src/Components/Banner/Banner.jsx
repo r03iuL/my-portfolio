@@ -4,7 +4,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 const Banner = () => {
   return (
     <div>
-      <div className=" min-h-screen flex flex-col justify-center ">
+      <div className=" min-h-screen flex flex-col justify-center border-t-4 border-orange-400 ">
         <div className="flex flex-col lg:flex-row-reverse justify-between items-center">
           <div>
             <img
