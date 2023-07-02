@@ -1,130 +1,92 @@
 {
-  "expertise": [
+  "frontend": [
     {
       "name": "HTML 5",
-      "img": "html5.png",
-      "level": "Expert"
+      "img": "html5.png"
     },
     {
       "name": "CSS 3",
-      "img": "css3.png",
-      "level": "Expert"
+      "img": "css3.png"
     },
     {
       "name": "Bootstrap",
-      "img": "bootstrap.png",
-      "level": "Expert"
+      "img": "bootstrap.png"
     },
     {
       "name": "Tailwind",
-      "img": "tailwind.png",
-      "level": "Expert"
+      "img": "tailwind.png"
     },
     {
       "name": "Javascript",
-      "img": "javascript.png",
-      "level": "Expert"
+      "img": "javascript.png"
     },
     {
       "name": "React",
-      "img": "react.png",
-      "level": "Expert"
+      "img": "react.png"
     },
     {
       "name": "React Bootstrap",
-      "img": "react-bootstrap.png",
-      "level": "Expert"
+      "img": "react-bootstrap.png"
     },
     {
       "name": "Daisy UI",
-      "img": "daisy-ui.png",
-      "level": "Expert"
+      "img": "daisy-ui.png"
     },
     {
       "name": "React Router",
-      "img": "react-router.png",
-      "level": "Expert"
+      "img": "react-router.png"
     }
   ],
-  "comfortable": [
-    {
-      "name": "MongoDB",
-      "img": "mongodb.png",
-      "level": "Comfortable"
-    },
-    {
-      "name": "REST APIs",
-      "img": "rest-api.png",
-      "level": "Comfortable"
-    },
-    {
-      "name": "Firebase Authentication & Hosting",
-      "img": "firebase.png",
-      "level": "Comfortable"
-    }
-  ],
-  "familiar": [
-    {
-      "name": "Express JS",
-      "img": "express.png",
-      "level": "Familiar"
-    },
+  "backend": [
     {
       "name": "Node JS",
-      "img": "nodejs.png",
-      "level": "Familiar"
+      "img": "nodejs.png"
+    },
+    {
+      "name": "MongoDB",
+      "img": "mongodb.png"
+    },
+    {
+      "name": "Express JS",
+      "img": "express.png"
     },
     {
       "name": "Next JS",
-      "img": "nextjs.png",
-      "level": "Familiar"
+      "img": "nextjs.png"
     },
     {
-      "name": "Axios",
-      "img": "axios.png",
-      "level": "Familiar"
+      "name": "REST APIs",
+      "img": "rest-api.png"
     },
     {
-      "name": "JWT",
-      "img": "jwt.png",
-      "level": "Familiar"
+      "name": "Firebase",
+      "img": "firebase.png"
     }
   ],
   "tools": [
     {
       "name": "VScode",
-      "img": "vscode.png",
-      "level": "Tools"
+      "img": "vscode.png"
     },
     {
       "name": "GitHub",
-      "img": "github.png",
-      "level": "Tools"
+      "img": "github.png"
     },
     {
-      "name": "Chrome Dev Tools",
-      "img": "chrome-dev-tools.png",
-      "level": "Tools"
+      "name": "Chrome DevTools",
+      "img": "chrome-dev-tools.png"
     },
     {
       "name": "Figma",
-      "img": "figma.png",
-      "level": "Tools"
+      "img": "figma.png"
     },
     {
       "name": "Netlify",
-      "img": "netlify.png",
-      "level": "Tools"
+      "img": "netlify.png"
     },
     {
       "name": "Vercel",
-      "img": "vercel.png",
-      "level": "Tools"
-    },
-    {
-      "name": "Figma",
-      "img": "figma.png",
-      "level": "Tools"
+      "img": "vercel.png"
     }
   ]
 }

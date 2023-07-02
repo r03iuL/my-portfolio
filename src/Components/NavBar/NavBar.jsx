@@ -1,4 +1,4 @@
-import React from "react";
+
 const navItems = (
   <>
     <li>
@@ -45,7 +45,7 @@ const NavBar = () => {
               {navItems}
             </ul>
           </div>
-          <a className="normal-case text-3xl">r03iuL.live</a>
+          <a className="normal-case text-3xl flex "><img src="/icon.png" alt="logo" className="w-10 mr-4" />r03iuL.live</a>
         </div>
         <div className="navbar-end hidden lg:flex  ">
           <ul className="menu menu-horizontal px-1 text-xl">

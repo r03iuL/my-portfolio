@@ -1,0 +1,9 @@
+.wavy-bg {
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 3px,
+      #f5bcbc 10px,
+      #b07979 10px
+    );
+  }
