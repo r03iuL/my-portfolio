@@ -1,6 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
+const handleDownload = () =>{
+  window.open("https://drive.google.com/u/1/uc?id=1QOaoykmwPiSfsqjQeQU7DPNvwAeoMAQw&export=download","_parent");
+};
 const Banner = () => {
   return (
     <div>
@@ -20,7 +23,7 @@ const Banner = () => {
               . I am a MERN STACK web developer based on Bangladesh. Welcome to
               my portfolio!
             </p>
-            <button className="btn mx-auto lg:mx-0 bg-orange-400 flex justify-center items-center text-lg">
+            <button onClick={handleDownload} className="btn mx-auto lg:mx-0 bg-orange-400 flex justify-center items-center text-lg">
               <FontAwesomeIcon icon={faDownload} className="mr-2" />
               Resume
             </button>
