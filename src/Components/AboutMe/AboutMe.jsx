@@ -20,7 +20,7 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className="mx-5 lg:mx-0 min-h-screen">
+    <div className="mx-5 lg:mx-0 min-h-screen" id='About'>
       <h1 className="text-3xl font-bold border-b-4 border-orange-400 py-2 mb-5">
         About Me
       </h1>

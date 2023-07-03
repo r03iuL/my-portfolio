@@ -34,7 +34,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="my-10 mx-5 lg:mx-0 min-h-screen">
+    <div className="my-10 mx-5 lg:mx-0 min-h-screen"id="Contact">
       <div className=" flex flex-col p-5 justify-center ">
         <div className="flex flex-col lg:flex-row justify-between items-center border-4  border-orange-400">
           <div className="  text-justify">

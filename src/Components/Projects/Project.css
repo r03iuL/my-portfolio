@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .screenshot-container {
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+  }
+  
+  .screenshot-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+  }
+  
+  .screenshot-container:hover .screenshot-img {
+    transform: translateY(-50%);
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-body p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }

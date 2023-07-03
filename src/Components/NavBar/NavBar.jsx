@@ -2,16 +2,16 @@
 const navItems = (
   <>
     <li>
-      <a>About</a>
+      <a href='#About' >About</a>
     </li>
     <li>
-      <a>Skills</a>
+      <a href='#Skills'>Skills</a>
     </li>
     <li>
-      <a>Project</a>
+      <a href='#Project'>Project</a>
     </li>
     <li>
-      <a>Contact</a>
+      <a href='#Contact'>Contact</a>
     </li>
   </>
 );
