@@ -1,5 +1,30 @@
-const handleSubmit = () => {};
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+
+
+
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    emailjs
+      .sendForm(
+        "service_wwvdyq8",
+        "template_64qlh5i",
+        form.current,
+        "mVFCQ0yuytbdWR3H8"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="my-10 mx-5 lg:mx-0 min-h-screen">
       <div className=" flex flex-col p-5 justify-center ">
@@ -11,14 +36,13 @@ const Contact = () => {
               alt="Profile"
             />
           </div>
-          <div className="mt-10 lg:mt-0 px-10  bg-orange-400 text-justify w-full lg:w-1/2">
+          <div className="mt-10 lg:mt-0 px-10  bg-orange-300 text-justify w-full lg:w-1/2">
             <form
-              onSubmit={handleSubmit}
-              className="my-10 py-10 px-10 lg:px-0 flex flex-col justify-center items-center text-black text-left text-2xl font-bold"
+              ref={form}
+              onSubmit={sendEmail}
+              className="my-10 py-10 px-10 lg:px-0 flex flex-col justify-center items-center text-slate-600 text-left text-xl font-bold"
             >
-              <h1 className="text-4xl font-bold py-2 mb-5">
-                Contact Me!
-              </h1>
+              <h1 className="text-3xl font-bold py-2 mb-5">Contact Me!</h1>
               <div className="py-6 flex flex-col ">
                 <label className="mb-5" htmlFor="email">
                   Email:
@@ -59,7 +83,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="text-bold text-xl items-center border-4 border-orange-400 rounded-lg bg-orange-300 m py-5 px-10 mx-auto"
+                className="text-bold text-xl items-center border-4 border-orange-400 rounded-lg bg-orange-400 m py-5 px-10 mx-auto"
               >
                 Submit
               </button>
