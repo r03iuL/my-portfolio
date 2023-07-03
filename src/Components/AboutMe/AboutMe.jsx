@@ -20,12 +20,12 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className="mx-5 lg:mx-5 min-h-screen">
+    <div className="mx-5 lg:mx-0 min-h-screen">
       <h1 className="text-3xl font-bold border-b-4 border-orange-400 py-2 mb-5">
         About Me
       </h1>
       <div className=" flex flex-col justify-center">
-        <div className="flex flex-col lg:flex-row-reverse justify-between items-center">
+        <div className="flex flex-col lg:flex-row justify-between items-center">
           <div>
             <img
               src="/public/Profile.png"

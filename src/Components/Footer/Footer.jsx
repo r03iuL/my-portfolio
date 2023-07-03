@@ -7,7 +7,7 @@ const Footer = () => {
             {" "}
             <img src="/Up.png" alt="" className="w-20" /> Back To Top
           </a>
-          <div className="flex justify-center my-5">
+          <div className="flex flex-col lg:flex-row md:flex-row justify-center my-5">
             <a
               href="https://www.linkedin.com/in/r03iul/"
               className="flex flex-col items-center text-xl font-bold px-5"

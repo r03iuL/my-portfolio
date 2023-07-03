@@ -3,6 +3,7 @@ import NavBar from './../NavBar/NavBar';
 import Banner from './../Banner/Banner';
 import AboutMe from './../AboutMe/AboutMe';
 import Skills from './../Skills/Skills';
+import Contact from './../Contact/Contact';
 
 const All = () => {
     return (
@@ -11,6 +12,7 @@ const All = () => {
             <Banner></Banner>
             <AboutMe></AboutMe>
             <Skills></Skills>
+            <Contact></Contact>
             
         </div>
     );
