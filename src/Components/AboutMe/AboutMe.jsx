@@ -28,7 +28,7 @@ const AboutMe = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center">
           <div>
             <img
-              src="/public/Profile.png"
+              src="/Profile.png"
               className="max-w-sm lg:max-w-md mx-0 lg:mx-10 rounded-lg mt-10 lg:mt-0 shadow-none"
               alt="Profile"
             />

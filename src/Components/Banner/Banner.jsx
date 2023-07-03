@@ -11,7 +11,7 @@ const Banner = () => {
         <div className="flex flex-col lg:flex-row-reverse justify-between items-center">
           <div>
             <img
-              src="/public/Img1.png"
+              src="/Img1.png"
               className="max-w-sm lg:max-w-xl rounded-lg   mt-10 lg:mt-0 shadow-none"
             />
           </div>
