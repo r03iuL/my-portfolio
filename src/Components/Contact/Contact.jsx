@@ -60,7 +60,7 @@ const Contact = () => {
                   id="email"
                   name="form_email"
                   placeholder="Your email."
-                  className="px-20 py-5 border-4 border-orange-400  rounded-lg"
+                  className="px-0 py-5 lg:px-20 border-4 border-orange-400  rounded-lg"
                   required
                 />
               </div>
@@ -73,10 +73,11 @@ const Contact = () => {
                   id="name"
                   name="form_name"
                   placeholder="Your name."
-                  className="px-20 py-5 border-4 border-orange-400  rounded-lg"
+                  className="px-0 py-5 lg:px-20 border-4 border-orange-400  rounded-lg"
                   required
                 />
               </div>
+
               <div className="py-5 flex flex-col">
                 <label className="mb-5" htmlFor="message">
                   Message:
@@ -85,7 +86,7 @@ const Contact = () => {
                   id="message"
                   name="form_massage"
                   placeholder="Your massage."
-                  className="px-20 py-10 border-4 border-orange-400  rounded-lg"
+                  className="px-0 py-5 lg:px-20 border-4 border-orange-400  rounded-lg"
                   required
                 ></textarea>
               </div>
