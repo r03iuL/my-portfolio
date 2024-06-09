@@ -10,6 +10,33 @@ const Projects = () => {
         <div className="flex flex-col lg:flex-row lg:justify-between">
 
           {/* first card */}
+          <div className="card mx-5 glass">
+            <div className="screenshot-container">
+              <img src="/chef.png" alt="Screenshot 3" className="screenshot-img" />
+            </div>
+            <div className="card-body">
+              <h2 className="card-title">TASTE BUDS</h2>
+              <p>A site with many chefs and their popular recipes.</p>
+              <div className="technologies">
+                <h2 className="card-title">Technologies:</h2>
+                <p>
+                  React, React Router, JavaScript, MongoDB, Firebase, Tailwind
+                </p>
+              </div>
+              <div className="flex flex-row card-actions">
+                <a href="https://chefhunter-81e8d.web.app/" className="mx-auto bg-orange-400 p-2 rounded-lg">
+                  Live Site
+                </a>
+                <a href="https://github.com/r03iuL/PHA-10-taste-buds" className="mx-auto bg-orange-400 p-2 rounded-lg">
+                  Frontend Code Github
+                </a>
+                <a href="https://github.com/r03iuL/PHA-10-taste-buds-server" className="mx-auto bg-orange-400 p-2 rounded-lg">
+                  Backend Code Github
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* second card */}
           <div className="card mx-5 glass mb-5 lg:mb-0">
             <div className="screenshot-container">
               <img src="/musical.png" alt="Screenshot 1" className="screenshot-img" />
@@ -37,32 +64,7 @@ const Projects = () => {
             </div>
           </div>
           {/* second card */}
-          <div className="card mx-5 glass">
-            <div className="screenshot-container">
-              <img src="/chef.png" alt="Screenshot 3" className="screenshot-img" />
-            </div>
-            <div className="card-body">
-              <h2 className="card-title">TASTE BUDS</h2>
-              <p>A site with many chefs and their popular recipes.</p>
-              <div className="technologies">
-                <h2 className="card-title">Technologies:</h2>
-                <p>
-                  React, React Router, JavaScript, MongoDB, Firebase, Tailwind
-                </p>
-              </div>
-              <div className="flex flex-row card-actions">
-                <a href="https://chefhunter-81e8d.web.app/" className="mx-auto bg-orange-400 p-2 rounded-lg">
-                  Live Site
-                </a>
-                <a href="https://github.com/r03iuL/PHA-10-taste-buds" className="mx-auto bg-orange-400 p-2 rounded-lg">
-                  Frontend Code Github
-                </a>
-                <a href="https://github.com/r03iuL/PHA-10-taste-buds-server" className="mx-auto bg-orange-400 p-2 rounded-lg">
-                  Backend Code Github
-                </a>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
